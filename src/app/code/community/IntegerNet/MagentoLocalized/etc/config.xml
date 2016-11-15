@@ -549,6 +549,10 @@
                     <name>Polish</name>
                     <code>snowdog-apps/magento-translation-pl_pl</code>
                 </pl_PL>
+                <vi_VN>
+                    <name>Vietnamese</name>
+                    <code>magestore/magento-translation-vi_vn</code>
+                </vi_VN>
             </languages>
 
             <install_guide_url>
