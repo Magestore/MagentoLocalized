@@ -13,7 +13,7 @@
 <config>
     <modules>
         <IntegerNet_MagentoLocalized>
-            <version>1.9.0.1.3</version>
+            <version>1.9.2.2.0</version>
         </IntegerNet_MagentoLocalized>
     </modules>
 
@@ -32,6 +32,11 @@
                     <config>IntegerNet_MagentoLocalized_Model_Paypal_Config</config>
                 </rewrite>
             </paypal>
+            <iways_paypalplus>
+                <rewrite>
+                    <partner_config>IntegerNet_MagentoLocalized_Model_PayPalPlus_Partner_Config</partner_config>
+                </rewrite>
+            </iways_paypalplus>
         </models>
 
         <blocks>
@@ -387,7 +392,7 @@
                     <name>Baseprice Extension</name>
                     <description>Automatic calculation and indication of the basis price for articles</description>
                     <url>http://www.nr-apps.com/store/baseprice-extension-basic.html</url>
-                    <code>connect20/dermodpro_baseprice</code>
+                    <code>dmp/baseprice</code>
                     <is_required>0</is_required>
                     <is_default>0</is_default>
                     <is_available>1</is_available>
@@ -450,7 +455,7 @@
                     <name>Cash on Delivery (Payment Method)</name>
                     <description>Cash on Delivery allows to book additional fee on delivery depending on domestic or international delivery.</description>
                     <url>http://www.magentocommerce.com/magento-connect/cashondelivery.html</url>
-                    <code>connect20/cashondelivery</code>
+                    <code>phoenix-media/magento-cashondelivery</code>
                     <is_required>0</is_required>
                     <is_default>0</is_default>
                     <is_available>1</is_available>
@@ -459,7 +464,7 @@
                     <name>Bank Prepayment (Payment Method)</name>
                     <description>Payment Method "Bank Prepayment"</description>
                     <url>http://www.magentocommerce.com/magento-connect/bankpayment.html</url>
-                    <code>connect20/bankpayment</code>
+                    <code>phoenix-media/magento-bankpayment</code>
                     <is_required>0</is_required>
                     <is_default>0</is_default>
                     <is_available>1</is_available>
@@ -497,8 +502,8 @@
                     <url>http://www.magentocommerce.com/magento-connect/webformat-login-with-paypal.html</url>
                     <code>webformat/loginwithpaypal</code>
                     <is_required>0</is_required>
-                    <is_default>1</is_default>
-                    <is_available>1</is_available>
+                    <is_default>0</is_default>
+                    <is_available>0</is_available>
                 </webformat_loginwithpaypal>
                 <indexer_stats>
                     <name>Hackathon_IndexerStats (PHP 5.4+)</name>
@@ -522,7 +527,7 @@
                 </en_US>
                 <es_ES>
                     <name>Spanish</name>
-                    <code>connect20/locale_mage_community_es_es</code>
+                    <code>connect20/mage_locale_es_es</code>
                 </es_ES>
                 <fr_FR>
                     <name>French</name>
@@ -544,10 +549,10 @@
                     <name>Polish</name>
                     <code>snowdog-apps/magento-translation-pl_pl</code>
                 </pl_PL>
-                <ru_RU>
-                    <name>Russian</name>
-                    <code>etws/et_russianlanguagepack</code>
-                </ru_RU>
+                <vi_VN>
+                    <name>Vietnamese</name>
+                    <code>magestore/magento-translation-vi_vn</code>
+                </vi_VN>
             </languages>
 
             <install_guide_url>

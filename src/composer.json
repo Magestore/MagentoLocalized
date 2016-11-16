@@ -1,7 +1,7 @@
 {
     "minimum-stability": "dev",
     "require": {
-        "magento-hackathon/magento-composer-installer": "2.1.1",
+        "magento-hackathon/magento-composer-installer": "dev-magento_localized",
 
         "integer-net/magento-localized-at": "dev-master",
         "integer-net/magento-localized-ch": "dev-master",
@@ -11,22 +11,21 @@
         "integer-net/magento-localized-fr": "dev-master",
         "integer-net/magento-localized-it": "dev-master",
         "integer-net/magento-localized-ro": "dev-master",
-        "integer-net/magento-localized-ru": "dev-master",
         "integer-net/magento-localized-pl": "dev-master",
+        "magestore/magento-localized-vn": "dev-master",
 
         "riconeitzel/german-localepack-de-de": "dev-preview",
-        "connect20/locale_mage_community_es_es": "*",
+        "connect20/mage_locale_es_es": "*",
         "connect20/locale_mage_community_fr_fr": "*",
         "connect20/locale_mage_community_it_it": "*",
         "ho-nl/ho_nl_nl": "dev-master",
         "mindmagnet/romanian-translation": "dev-master",
         "snowdog-apps/magento-translation-pl_pl": "dev-master",
-        "etws/et_russianlanguagepack": "1.5.0",
 
-        "firegento/magesetup": "dev-master",
+        "firegento/magesetup": "dev-development",
         "firegento/pdf": "dev-master",
         "magento-hackathon/localefallback": "dev-master",
-        "connect20/dermodpro_baseprice": "*",
+        "dmp/baseprice": "dev-master",
         "avstudnitz/scopehint": "dev-master",
         "avstudnitz/admin-notification-advanced": "dev-master",
         "tim-reynolds/magento-qconfig": "dev-master",
@@ -37,14 +36,19 @@
         "magento-hackathon/hackathon_magemonitoring": "dev-master",
         "magento-hackathon/indexer-stats": "dev-master",
 
-        "connect20/cashondelivery": "0.4.3",
+        "phoenix-media/magento-cashondelivery":"dev-master",
         "itabs/invoice": "dev-master",
         "therouv/debitpayment": "dev-master",
-        "connect20/bankpayment": "*",
+        "phoenix-media/magento-bankpayment": "dev-master",
 
         "integer-net/magento-localized-ebay": "dev-master",
-        "ess/m2e-pro": "dev-master#5c779d42265ea504efae2ff02ff99c57de775b6b",
-        "webformat/loginwithpaypal": "dev-master"
+        "iways/paypalplus": "1.7.2",
+        "webformat/loginwithpaypal": "dev-master",
+        
+        "magestore/onepay": "dev-master",
+        "magestore/giaohangnhanh": "dev-master",
+        "magestore/regionmanager": "dev-master"
+        
     },
     "repositories": [
         {
@@ -53,7 +57,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/integer-net/M2E.git"
+            "url": "https://github.com/integer-net/magento-composer-installer.git"
         },
         {
             "type": "vcs",
@@ -101,6 +105,14 @@
         },
         {
             "type": "vcs",
+            "url": "git@github.com:integer-net/ppp.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://avstudnitz@bitbucket.org/integer_net/dmp_baseprice.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git"
         },
         {
@@ -126,6 +138,10 @@
         {
             "type": "vcs",
             "url": "https://bitbucket.org/etws/et_russianlanguagepack.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Magestore/MagentoLocalizedVN.git"
         }
     ],
     "extra": {
