@@ -4,6 +4,7 @@
         "magento-hackathon/magento-composer-installer": "dev-magento_localized",
 
         "magestore/magento-localized-vn": "dev-master",
+        "magestore/magento-translation-vi_vn": "dev-master",
 
         "firegento/magesetup": "dev-development",
         
@@ -24,6 +25,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/Magestore/MagentoLocalizedVN.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Magestore/Vietnamese-Language-Pack.git"
         },
         {
             "type": "vcs",
