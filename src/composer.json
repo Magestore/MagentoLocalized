@@ -142,6 +142,18 @@
         {
             "type": "vcs",
             "url": "https://github.com/Magestore/MagentoLocalizedVN.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Magestore/Magento-Onepay-Extension.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Magestore/Magento-Giaohangnhanh-Extension.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Magestore/Magento-RegionManager-Extension.git"
         }
     ],
     "extra": {
