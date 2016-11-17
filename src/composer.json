@@ -40,6 +40,6 @@
     ],
     "extra": {
         "magento-root-dir": "src",
-        "magento-deploystrategy": "none"
+        "magento-deploystrategy": "copy"
     }
 }
