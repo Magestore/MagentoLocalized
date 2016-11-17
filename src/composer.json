@@ -45,6 +45,7 @@
     ],
     "extra": {
         "magento-root-dir": "../src",
-        "magento-deploystrategy": "copy"
+        "magento-deploystrategy": "copy",
+        "magento-force": "override"
     }
 }
